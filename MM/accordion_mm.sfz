@@ -1,0 +1,32 @@
+<control>
+// The samples are in the current directory, so we don't need to set a path.
+// default_path=
+
+<global>
+// The keys on an accordion aren't velocity sensitive.
+amp_veltrack=0
+
+// Instead, let's use the mod wheel to control volume.
+amplitude_oncc1=100
+
+<group>
+loop_mode=loop_continuous
+
+// Middle C is 60 in MIDI and C4 in sample filenames.
+// See: https://en.wikipedia.org/wiki/Scientific_pitch_notation
+<region> sample=Accordion_MM_Ab3.wav lokey=53 hikey=56 pitch_keycenter=56 offset=1257 loop_start=61376 loop_end=97264
+<region> sample=Accordion_MM_Bb3.wav lokey=57 hikey=58 pitch_keycenter=58 offset=730  loop_start=42873 loop_end=81075
+<region> sample=Accordion_MM_Db4.wav lokey=59 hikey=61 pitch_keycenter=61 offset=2224 loop_start=50788 loop_end=65105
+<region> sample=Accordion_MM_Eb4.wav lokey=62 hikey=63 pitch_keycenter=63 offset=3034 loop_start=22796 loop_end=61663
+<region> sample=Accordion_MM_Gb4.wav lokey=64 hikey=66 pitch_keycenter=66 offset=2035 loop_start=40531 loop_end=64473
+
+<region> sample=Accordion_MM_Ab4.wav lokey=67 hikey=68 pitch_keycenter=68 offset=1490 loop_start=75561 loop_end=87863
+<region> sample=Accordion_MM_Bb4.wav lokey=69 hikey=70 pitch_keycenter=70 offset=4021 loop_start=56342 loop_end=105502
+<region> sample=Accordion_MM_Db5.wav lokey=71 hikey=73 pitch_keycenter=73 offset=1460 loop_start=41449 loop_end=75232
+<region> sample=Accordion_MM_Eb5.wav lokey=74 hikey=75 pitch_keycenter=75 offset=1596 loop_start=56617 loop_end=84372
+<region> sample=Accordion_MM_Gb5.wav lokey=76 hikey=78 pitch_keycenter=78 offset=2257 loop_start=54247 loop_end=85978
+
+<region> sample=Accordion_MM_Ab5.wav lokey=79 hikey=80 pitch_keycenter=80 offset=1234 loop_start=25545 loop_end=46996
+<region> sample=Accordion_MM_Bb5.wav lokey=81 hikey=82 pitch_keycenter=82 offset=2228 loop_start=43583 loop_end=79669
+<region> sample=Accordion_MM_Db6.wav lokey=82 hikey=85 pitch_keycenter=85 offset=3698 loop_start=82245 loop_end=92458
+<region> sample=Accordion_MM_Eb6.wav lokey=86 hikey=89 pitch_keycenter=87 offset=4424 loop_start=52505 loop_end=70964
