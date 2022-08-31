@@ -1,0 +1,18 @@
+<control>
+// The samples are in the current directory, so we don't need to set a path.
+// default_path=
+
+<global>
+// The keys on an accordion aren't velocity sensitive.
+amp_veltrack=0
+
+// Instead, let's use the mod wheel to control volume.
+amplitude_oncc1=100
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.15
+
+// See: https://en.wikipedia.org/wiki/Scientific_pitch_notation
+<region> sample=Accordion_MidBass_B.wav lokey=43 hikey=47 pitch_keycenter=47 offset=2419 loop_start=97071 loop_end=149589
+<region> sample=Accordion_MidBass_F#.wav lokey=48 hikey=54 pitch_keycenter=54 offset=2166 loop_start=47071 loop_end=98127
