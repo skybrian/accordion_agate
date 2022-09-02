@@ -20,12 +20,12 @@ ampeg_release=0.15
 <region> sample=Accordion_MidChords_DbMajor.wav key=37 loop_start=31823 loop_end=35653
 <region> sample=Accordion_MidChords_DMajor.wav key=38 loop_start=13217 loop_end=19826
 <region> sample=Accordion_MidChords_EbMajor.wav key=39 loop_start=24643 loop_end=33165
-<region> sample=Accordion_MidChords_EMajor.wav key=40 loop_start=16348 loop_end=22767
+<region> sample=Accordion_MidChords_EMajor.wav key=40 loop_start=33000 loop_end=34075
 <region> sample=Accordion_MidChords_FMajor.wav key=41 loop_start=17670 loop_end=27289
 <region> sample=Accordion_MidChords_F#Major.wav key=42 loop_start=10815 loop_end=19881
 <region> sample=Accordion_MidChords_GMajor.wav key=43 loop_start=24576 loop_end=34037
 <region> sample=Accordion_MidChords_AbMajor.wav key=44 loop_start=19813 loop_end=32135
-<region> sample=Accordion_MidChords_AMajor.wav key=45 loop_start=10760 loop_end=20122
+<region> sample=Accordion_MidChords_AMajor.wav key=45 loop_start=38456 loop_end=39257
 <region> sample=Accordion_MidChords_BbMajor.wav key=46 loop_start=24095 loop_end=32807
 <region> sample=Accordion_MidChords_BMajor.wav key=47 loop_start=12065 loop_end=21003
 // Minor
