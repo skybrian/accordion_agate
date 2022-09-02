@@ -1,0 +1,43 @@
+<control>
+// The samples are in the current directory, so we don't need to set a path.
+// default_path=
+
+<global>
+// The keys on an accordion aren't velocity sensitive.
+amp_veltrack=0
+
+// Instead, let's use the mod wheel to control volume.
+amplitude_oncc1=100
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.15
+
+// Each chord type is mapped to an octave.
+
+// Major
+<region> sample=Accordion_MidChords_CMajor.wav key=36 loop_start=36974 loop_end=47943
+<region> sample=Accordion_MidChords_DbMajor.wav key=37 loop_start=31823 loop_end=35653
+<region> sample=Accordion_MidChords_DMajor.wav key=38 loop_start=13217 loop_end=19826
+<region> sample=Accordion_MidChords_EbMajor.wav key=39 loop_start=24643 loop_end=33165
+<region> sample=Accordion_MidChords_EMajor.wav key=40 loop_start=16348 loop_end=22767
+<region> sample=Accordion_MidChords_FMajor.wav key=41 loop_start=17670 loop_end=27289
+<region> sample=Accordion_MidChords_F#Major.wav key=42 loop_start=10815 loop_end=19881
+<region> sample=Accordion_MidChords_GMajor.wav key=43 loop_start=24576 loop_end=34037
+<region> sample=Accordion_MidChords_AbMajor.wav key=44 loop_start=19813 loop_end=32135
+<region> sample=Accordion_MidChords_AMajor.wav key=45 loop_start=10760 loop_end=20122
+<region> sample=Accordion_MidChords_BbMajor.wav key=46 loop_start=24095 loop_end=32807
+<region> sample=Accordion_MidChords_BMajor.wav key=47 loop_start=12065 loop_end=21003
+// Minor
+<region> sample=Accordion_MidChords_CMinor.wav key=48 loop_start=31628 loop_end=34329
+<region> sample=Accordion_MidChords_DbMinor.wav key=49 loop_start=25927 loop_end=29751
+<region> sample=Accordion_MidChords_DMinor.wav key=50 loop_start=17104 loop_end=29706
+<region> sample=Accordion_MidChords_EbMinor.wav key=51 loop_start=20444 loop_end=29511
+<region> sample=Accordion_MidChords_EMinor.wav key=52 loop_start=21599 loop_end=25878
+<region> sample=Accordion_MidChords_FMinor.wav key=53 loop_start=16162 loop_end=22744
+<region> sample=Accordion_MidChords_F#Minor.wav key=54 loop_start=20912 loop_end=30933
+<region> sample=Accordion_MidChords_GMinor.wav key=55 loop_start=16704 loop_end=23910
+<region> sample=Accordion_MidChords_AbMinor.wav key=56 loop_start=20378 loop_end=29319
+<region> sample=Accordion_MidChords_AMinor.wav key=57 loop_start=25700 loop_end=35327
+<region> sample=Accordion_MidChords_BbMinor.wav key=58 loop_start=16581 loop_end=26438
+<region> sample=Accordion_MidChords_BMinor.wav key=59 loop_start=23143 loop_end=32446
