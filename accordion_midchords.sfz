@@ -1,6 +1,6 @@
 <control>
-// The samples are in the current directory, so we don't need to set a path.
-// default_path=
+// The directory containing the samples
+default_path=MidChords/
 
 <global>
 // The keys on an accordion aren't velocity sensitive.
